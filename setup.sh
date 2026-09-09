@@ -2,7 +2,7 @@
 
 # 1. Atualizar e instalar ferramentas iniciais
 sudo apt-get update && sudo apt-get upgrade -y
-sudo apt install -y git fbi
+sudo apt install -y fbi
 
 # 2. Configurar a tela (Driver mpi3501)
 if [ ! -d "mpi3501-kernel-6.12-driver" ]; then
